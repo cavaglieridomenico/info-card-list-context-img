@@ -10,6 +10,8 @@
 
 An extension to [List Context](https://github.com/vtex-apps/list-context) that enables users to create lists of info cards that can be editable via Site Editor
 
+![Screen Shot 2021-07-07 at 23 19 56](https://user-images.githubusercontent.com/50715158/124839073-fdfd2b00-df7f-11eb-8ebd-a009e3fd34b8.png)
+
 ## Configuration 
 
 - Add this app as a theme dependency in the `manifest.json` file
@@ -20,7 +22,7 @@ An extension to [List Context](https://github.com/vtex-apps/list-context) that e
 }
 ```
 
-- Declare the app's main block `list-context.info-card-list` in a given theme template or inside another block from the theme
+- Declare the app's main block `list-context.info-card-list`
 ```json
 "list-context.info-card-list#demo": {
     "children": [
@@ -29,10 +31,10 @@ An extension to [List Context](https://github.com/vtex-apps/list-context) that e
     "props": {
       "infoCards": [
         {
-          {...props}
+          ...props
         },
         {
-          {...props}
+          ...props
         }
       ]
     }
