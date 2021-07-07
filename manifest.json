@@ -1,0 +1,22 @@
+{
+  "vendor": "vtex",
+  "name": "info-card-list",
+  "version": "0.0.0",
+  "title": "Info card list context",
+  "description": "A list context provider of info cards, to be used inside list consumers",
+  "builders": {
+    "react": "3.x",
+    "docs": "0.x",
+    "messages": "1.x",
+    "store": "0.x"
+  },
+  "dependencies": {
+    "vtex.list-context": "0.x",
+    "vtex.store-components": "3.x"
+  },
+  "registries": [
+    "smartcheckout"
+  ],
+  "policies": [],
+  "$schema": "https://raw.githubusercontent.com/vtex/node-vtex-api/master/gen/manifest.schema"
+}
