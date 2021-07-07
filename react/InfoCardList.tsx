@@ -13,7 +13,7 @@ const messages = defineMessages({
 })
 
 export type InfoCardsSchema = Array<{
-  imageUrl: string
+  [key: string]: any;
 }>
 
 export interface InfoCardListProps {
