@@ -12,7 +12,8 @@
   },
   "dependencies": {
     "vtex.list-context": "0.x",
-    "vtex.store-components": "3.x"
+    "vtex.store-components": "3.x",
+    "vtex.css-handles": "1.x"
   },
   "registries": [
     "smartcheckout"

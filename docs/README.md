@@ -68,7 +68,14 @@ This array is composed of objects with the properties defined in [Info Card](htt
 
 ## Customization
 
-`No CSS Handles are available yet for the app customization.`
+### ⚠️ blockClass workaround
+
+If you assign the prop `blockClass` to an info-card, it will be assigned as a CSS HANDLE to a `div` wrapper.  
+For i.e: If you give the first info-card the blockClass `first-info-card`, a parent div will be rendered as such:  
+```html
+<div class="vtex-info-card-list-0-x-first-info-card">
+```
+This will give you the option to style each info-card individually  
 
 <!-- DOCS-IGNORE:start -->
 
