@@ -1,0 +1,10 @@
+{
+  "name": "Info card list",
+  "headline": "Lists of info cards that can be editable via Site Editor.",
+  "overview": "An extension to List Context that enables users to create lists of info cards.",
+  "features": ["Create lists of info cards"],
+  "websiteURL": "https://vtex.com/",
+  "support": {
+    "url": "https://support.vtex.com/hc/requests"
+  }
+}

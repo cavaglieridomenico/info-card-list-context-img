@@ -1,0 +1,10 @@
+{
+  "name": "Info card list",
+  "headline": "Listas de cartões informativos que podem ser editáveis através do Editor do site.",
+  "overview": "Uma extensão ao Contexto da Lista que permite aos usuários criar listas de cartões info cards.",
+  "features": ["Criar listas de cartões de informações"],
+  "websiteURL": "https://vtex.com/",
+  "support": {
+    "url": "https://support.vtex.com/hc/requests"
+  }
+}
