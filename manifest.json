@@ -15,9 +15,14 @@
     "vtex.store-components": "3.x",
     "vtex.css-handles": "1.x"
   },
-  "registries": [
-    "smartcheckout"
-  ],
+  "registries": ["smartcheckout"],
   "policies": [],
+  "billingOptions": {
+    "support": {
+      "url": "https://support.vtex.com/hc/requests"
+    },
+    "type": "free",
+    "availableCountries": ["*"]
+  },
   "$schema": "https://raw.githubusercontent.com/vtex/node-vtex-api/master/gen/manifest.schema"
 }
