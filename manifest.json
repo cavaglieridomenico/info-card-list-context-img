@@ -1,7 +1,7 @@
 {
   "vendor": "vtex",
   "name": "info-card-list",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "title": "Info card list context",
   "description": "A list context provider of info cards, to be used inside list consumers",
   "builders": {
@@ -15,14 +15,18 @@
     "vtex.store-components": "3.x",
     "vtex.css-handles": "1.x"
   },
-  "registries": ["smartcheckout"],
+  "registries": [
+    "smartcheckout"
+  ],
   "policies": [],
   "billingOptions": {
     "support": {
       "url": "https://support.vtex.com/hc/requests"
     },
     "type": "free",
-    "availableCountries": ["*"]
+    "availableCountries": [
+      "*"
+    ]
   },
   "$schema": "https://raw.githubusercontent.com/vtex/node-vtex-api/master/gen/manifest.schema"
 }
