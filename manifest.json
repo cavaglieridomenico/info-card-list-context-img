@@ -1,7 +1,7 @@
 {
-  "vendor": "vtex",
+  "vendor": "itwhirlpool",
   "name": "info-card-list",
-  "version": "0.0.3",
+  "version": "0.0.1-beta.1",
   "title": "Info card list context",
   "description": "A list context provider of info cards, to be used inside list consumers",
   "builders": {
@@ -12,7 +12,7 @@
   },
   "dependencies": {
     "vtex.list-context": "0.x",
-    "vtex.store-components": "3.x",
+    "itwhirlpool.store-components": "0.0.1-beta.1",
     "vtex.css-handles": "1.x"
   },
   "registries": [

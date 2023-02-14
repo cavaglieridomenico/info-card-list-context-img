@@ -1,6 +1,6 @@
 import React, { PropsWithChildren } from 'react'
 import { useListContext, ListContextProvider } from 'vtex.list-context'
-import { InfoCard } from 'vtex.store-components'
+import { InfoCard } from 'itwhirlpool.store-components'
 import { defineMessages } from 'react-intl'
 import { useCssHandles } from 'vtex.css-handles'
 
@@ -46,7 +46,6 @@ function InfoCardList({
   )
 
   const newListContextValue = list.concat(imageListContent)
-
   return (
     <ListContextProvider list={newListContextValue}>
       {children}

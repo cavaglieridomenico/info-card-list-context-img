@@ -9,7 +9,7 @@
           "type": "array",
           "title": "admin/editor.info-card-list.infocard.title",
           "items": {
-            "$ref": "app:vtex.store-components#/definitions/InfoCard"
+            "$ref": "app:itwhirlpool.store-components#/definitions/InfoCard"
           }
         }
       }
